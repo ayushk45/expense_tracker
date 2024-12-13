@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overview-cont {
+    width: 45%;
+    float: inline-start;
+}
+.head {
+    color: blue;
+    font-weight: 700;
+    font-size: 30px;
+}
+.balance {
+    font-size: 25px;
+    color: green;
+}
+
+.exp-incm {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.incm {
+    font-weight: bold;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#incm-amt {
+    color: green;
+    font-weight: 700;
+}
+.exp {
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+
+}
+#exp-amt {
+    color: red;
+    font-weight: 700;
+} 
+.new-txn {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.txn-details {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+.txn-input {
+    margin-bottom: 20px;
+    padding: 8px 0 8px 5px;
+    border-radius: 5px;
+}
+.txn-input:hover {
+    cursor: pointer;
+}
+.radio-btn {
+    font-weight: bold;  
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.radio-btn input:hover {
+    cursor: pointer;
+}
+#add-txn-btn {
+    width: 400px;
+    background-color: #1565C0;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width:500px) {
+    .overview-cont {
+        width: 100%;
+        margin: auto;
+    }
+}
